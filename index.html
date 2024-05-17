@@ -10,7 +10,14 @@
     <div class="contain">
         <!-- side section -->
         <div class="side-section">
-            <img class="odin" src="odin-lined.png" alt=""> 
+            <div class="image">
+                <img class="odin" src="odin-lined.png" alt=""> 
+                <h1>ODIN</h1>
+            </div>
+            <div class="footer">
+                photo by <a href="">Alie Weat</a> on <a href="">unsplash</a>
+            </div>
+
         </div>
         <div class="main-section">
             <div class="header">
@@ -39,23 +46,24 @@
                             <input type="email" id="email"name=email>
 
                             <label for="password">Password:</label>
-                            <input type="password" id="password"name=password>
+                            <input type="password" id="password"name=password required>
+                            <p id="error"></p>
 
                         </div>
                         <div class="formDiv">
                             <label for="lname">Last Name:</label>
                             <input type="text" id="lname"name=lname>
 
-                            <label for="phone">Last Name:</label>
+                            <label for="phone">Phone Number:</label>
                             <input type="tel" id="lname"name=lname>
 
-                            <label for="cpassword">Comfirm Password:</label>
+                            <label for="cpassword">Confirm Password:</label>
                             <input type="password" id="cpassword"name=cpassword>
                         </div>
                     </div>
                     <div class="create">
                         <button type="submit">Create Account</button>
-                        <div class="login-text">Already have an account Log in</div>
+                        <div class="login-text">Already have an account <a href="">Log In</a></div>
                     </div>
                 </form>
             </div>
