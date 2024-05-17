@@ -1,7 +1,35 @@
-.body{
+body{
+    margin:0;
+    padding:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.contain{
     display:flex;
+    flex-direction: row;
+    width:100vw;
+    height:100vh;
+    
+}
+.main-section{
+    display:flex;
+    justify-content:center;
     flex-direction:column;
+    background-color:#fafafa;
+    width:65vw;
+    padding-top: 15vh;
 }
 .side-section{
-    background-image: url('leaves.jpg')
+    background-image: url('leaves.jpg');
+    width:40vw;
+
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+.header{
+    height:33vh;
+    padding-left:2vw;
+}
+.form{
+    height:66vh;
 }
