@@ -10,7 +10,7 @@
     <div class="contain">
         <!-- side section -->
         <div class="side-section">
-            <img src="odin-lined.png" alt=""> 
+            <img class="odin" src="odin-lined.png" alt=""> 
         </div>
         <div class="main-section">
             <div class="header">
@@ -24,28 +24,35 @@
                 </h4>
             </div>
             <!-- the form -->
-            <div class="form">
+           
+            <div class="formContain">
+                <h4 class="blur">Let's do this</h4>
                 <form action="lol" method="post">
-                    <fieldset>
-                        <legend>Let's do this</legend>
-                        <label for="fname">First Name:</label>
-                        <input type="text" id="fname"name=fname>
+                    <div class="form">
+                      
+                        <div class="formDiv">
+                      
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname"name=fname>
 
-                        <label for="lname">Last Name:</label>
-                        <input type="text" id="lname"name=lname>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email"name=email>
 
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email"name=email>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password"name=password>
 
-                        <label for="phone">Last Name:</label>
-                        <input type="tel" id="lname"name=lname>
+                        </div>
+                        <div class="formDiv">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname"name=lname>
 
-                        <label for="password">Password:</label>
-                        <input type="password" id="password"name=password>
+                            <label for="phone">Last Name:</label>
+                            <input type="tel" id="lname"name=lname>
 
-                        <label for="cpassword">Comfirm Password:</label>
-                        <input type="password" id="cpassword"name=cpassword>
-                    </fieldset>
+                            <label for="cpassword">Comfirm Password:</label>
+                            <input type="password" id="cpassword"name=cpassword>
+                        </div>
+                    </div>
                     <div class="create">
                         <button type="submit">Create Account</button>
                         <div class="login-text">Already have an account Log in</div>

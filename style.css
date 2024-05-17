@@ -16,11 +16,11 @@ body{
     flex-direction:column;
     background-color:#fafafa;
     width:65vw;
-    padding-top: 15vh;
+    padding-top: 30px;
 }
 .side-section{
     background-image: url('leaves.jpg');
-    width:40vw;
+    width:35vw;
 
     background-repeat:no-repeat;
     background-size:cover;
@@ -28,8 +28,53 @@ body{
 }
 .header{
     height:33vh;
-    padding-left:2vw;
+   
+}
+h4{
+    margin-left: 20px;
+}
+.blur{
+    width:100%;
+}
+.formContain{
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+
 }
 .form{
-    height:66vh;
+    display:flex;
+    height:33vh;
+
+}
+.formDiv{
+    display:flex;
+    flex-direction:column;
+    margin:0px 20px;
+}
+input{
+    margin-bottom: 15px;
+    border:1px solid#e5e7eb;
+    width:200px;
+    height:25px;
+}
+.create{
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+    height:33vh;
+}
+.create button{
+    width:150px;
+    color:white;
+    padding:5px;
+    background-color: darkolivegreen;
+    border-color:darkolivegreen ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.odin{
+    width:100px;
+    height:auto;
 }
